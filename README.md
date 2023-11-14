@@ -1,4 +1,4 @@
-# Teste---Simios
+# Teste-Simios
 
 Este projeto implementa uma solução para detectar se uma sequência de DNA pertence a um símio ou a um humano. Ele consiste em três níveis:
 
