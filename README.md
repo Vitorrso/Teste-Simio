@@ -17,22 +17,20 @@ Este projeto implementa uma solução para detectar se uma sequência de DNA per
 ## Pré-requisitos
 
 - Python 3.x
-- Dependências listadas em `requirements.txt`
+- Flask 3.0.2
+- SQLite 3.45.1
 
 ## Instalação
 
 1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/Vitorrso/Teste---Simios.git
-
 ## Instale as dependências:
-   comando: pip install -r requirements.txt
+   instale todos os pré-requesitos
 
 ## Execute o servidor Flask:
-  - comando: python simio_api.py
+  - comando: python api.py
   - Faça uma requisição POST para http://127.0.0.1:5000/simian com dados JSON:
      - {
      - "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"]
      - }
-  - Obtenha estatísticas fazendo uma requisição GET para http://127.0.0.1:5000/stats.
+  - Obtenha estatísticas com a contagem de simios, contagem de humanos e a proporção entre eles fazendo uma requisição GET para http://127.0.0.1:5000/stats.
