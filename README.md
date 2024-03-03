@@ -26,6 +26,7 @@ Este projeto implementa uma solução para detectar se uma sequência de DNA per
 ## Execute o servidor Flask:
   - comando: python api.py
   - Faça uma requisição POST para http://127.0.0.1:5000/simian com dados JSON:
+  - Exemplo:
      - {
      - "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"]
      - }
