@@ -20,10 +20,6 @@ Este projeto implementa uma solução para detectar se uma sequência de DNA per
 - Flask 3.0.2
 - SQLite 3.45.1
 
-## Instalação
-
-1. Clone o repositório:
-
 ## Instale as dependências:
    instale todos os pré-requesitos
 
